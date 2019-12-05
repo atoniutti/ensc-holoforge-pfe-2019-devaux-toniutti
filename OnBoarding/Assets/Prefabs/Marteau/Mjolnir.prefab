@@ -1,5 +1,116 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1044743814393689
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4701771117152817777}
+  - component: {fileID: 1781814484410447996}
+  - component: {fileID: 518050406859649236}
+  - component: {fileID: 7375708153649901075}
+  - component: {fileID: 6166923872425689568}
+  m_Layer: 0
+  m_Name: HammerSphere
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4701771117152817777
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1044743814393689}
+  m_LocalRotation: {x: -0, y: -0, z: -0.000000002775323, w: 1}
+  m_LocalPosition: {x: -0.25615573, y: 1.4985108, z: 1.9916108}
+  m_LocalScale: {x: 2.1206803, y: 2.1206818, z: 2.1206777}
+  m_Children: []
+  m_Father: {fileID: 4664597608977113821}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1781814484410447996
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1044743814393689}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &518050406859649236
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1044743814393689}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: adae029e341a2ad4491ba80e521c4711, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!135 &7375708153649901075
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1044743814393689}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.6
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!95 &6166923872425689568
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1044743814393689}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: dacb7fbd3e7cb3343989fdff8b632873, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1237903005498419060
 GameObject:
   m_ObjectHideFlags: 0
@@ -28,7 +139,7 @@ Transform:
   m_LocalScale: {x: 0.032019462, y: 0.032019462, z: 0.032019418}
   m_Children: []
   m_Father: {fileID: 4664597608977113821}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3381017311273930041
 GameObject:
@@ -112,7 +223,7 @@ Transform:
   m_LocalScale: {x: 0.032019462, y: 0.032019462, z: 0.032019418}
   m_Children: []
   m_Father: {fileID: 4664597608977113821}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4664597608976629389
 GameObject:
@@ -2261,6 +2372,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1114351236781719383}
+  - {fileID: 4701771117152817777}
   - {fileID: 8143522531676436453}
   - {fileID: 1464893131898607555}
   m_Father: {fileID: 0}
@@ -2315,7 +2427,7 @@ MonoBehaviour:
   controllerGameObject: {fileID: 4664597608976629501}
   editorParametersJson: "{\r\n  \"SERIALIZATION_VERSION\": \"1\",\r\n  \"behaviourName\":
     \"LongGazeDistanceBehaviour\",\r\n  \"entries\": [\r\n    {\r\n      \"name\":
-    \"maxDistance\",\r\n      \"value\": \"20\",\r\n      \"defaultValue\": \"0\",\r\n
+    \"maxDistance\",\r\n      \"value\": \"2\",\r\n      \"defaultValue\": \"0\",\r\n
     \     \"Type\": \"System.Single\"\r\n    }\r\n  ],\r\n  \"components\": [\r\n
     \   {\r\n      \"component\": {\r\n        \"name\": \"gazeComponent\",\r\n        \"value\":
     \"NULL\",\r\n        \"defaultValue\": \"NULL\",\r\n        \"Type\": \"HoloForge.Holo.GazeComponent\"\r\n
@@ -2331,7 +2443,7 @@ MonoBehaviour:
     \       },\r\n        {\r\n          \"name\": \"LongGazeDuration\",\r\n          \"value\":
     \"1\",\r\n          \"defaultValue\": \"0\",\r\n          \"Type\": \"System.Single\"\r\n
     \       },\r\n        {\r\n          \"name\": \"Target\",\r\n          \"value\":
-    {\r\n            \"unityGameObject\": \"{UnityEditorSerialization::0::RELATIVE::3381017311273930041}\"\r\n
+    {\r\n            \"unityGameObject\": \"{UnityEditorSerialization::0::RELATIVE::4664597608976629501}\"\r\n
     \         },\r\n          \"defaultValue\": \"NULL\",\r\n          \"Type\": \"HoloForge.Holo.HoloGameObject\"\r\n
     \       }\r\n      ]\r\n    },\r\n    {\r\n      \"component\": {\r\n        \"name\":
     \"animatorComponent\",\r\n        \"value\": \"NULL\",\r\n        \"defaultValue\":
@@ -2346,7 +2458,7 @@ MonoBehaviour:
     \"HoloForge.Holo.HoloGameObject\"\r\n        }\r\n      ]\r\n    }\r\n  ]\r\n}"
   runtimeParametersJson: "{\r\n  \"SERIALIZATION_VERSION\": \"1\",\r\n  \"behaviourName\":
     \"LongGazeDistanceBehaviour\",\r\n  \"entries\": [\r\n    {\r\n      \"name\":
-    \"maxDistance\",\r\n      \"value\": \"20\",\r\n      \"defaultValue\": \"0\",\r\n
+    \"maxDistance\",\r\n      \"value\": \"2\",\r\n      \"defaultValue\": \"0\",\r\n
     \     \"Type\": \"System.Single\"\r\n    }\r\n  ],\r\n  \"components\": [\r\n
     \   {\r\n      \"component\": {\r\n        \"name\": \"gazeComponent\",\r\n        \"value\":
     \"NULL\",\r\n        \"defaultValue\": \"NULL\",\r\n        \"Type\": \"HoloForge.Holo.GazeComponent\"\r\n
@@ -2362,7 +2474,7 @@ MonoBehaviour:
     \       },\r\n        {\r\n          \"name\": \"LongGazeDuration\",\r\n          \"value\":
     \"1\",\r\n          \"defaultValue\": \"0\",\r\n          \"Type\": \"System.Single\"\r\n
     \       },\r\n        {\r\n          \"name\": \"Target\",\r\n          \"value\":
-    {\r\n            \"unityGameObject\": \"{RuntimeSerialization::0::/Hammer::}\"\r\n
+    {\r\n            \"unityGameObject\": \"{RuntimeSerialization::0::Mjolnir::}\"\r\n
     \         },\r\n          \"defaultValue\": \"NULL\",\r\n          \"Type\": \"HoloForge.Holo.HoloGameObject\"\r\n
     \       }\r\n      ]\r\n    },\r\n    {\r\n      \"component\": {\r\n        \"name\":
     \"animatorComponent\",\r\n        \"value\": \"NULL\",\r\n        \"defaultValue\":
