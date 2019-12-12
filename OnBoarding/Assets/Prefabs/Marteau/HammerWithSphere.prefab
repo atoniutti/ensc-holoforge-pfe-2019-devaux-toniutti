@@ -1,0 +1,178 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4973748400637508216
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4973748400637508219}
+  m_Layer: 0
+  m_Name: HammerWithSphere
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4973748400637508219
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4973748400637508216}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 31321172892064955}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &4671566244012998246
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4973748400637508219}
+    m_Modifications:
+    - target: {fileID: 4664597608977113821, guid: dda748f6387e94c409a2eea07b081527,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.624
+      objectReference: {fileID: 0}
+    - target: {fileID: 4664597608977113821, guid: dda748f6387e94c409a2eea07b081527,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.075
+      objectReference: {fileID: 0}
+    - target: {fileID: 4664597608977113821, guid: dda748f6387e94c409a2eea07b081527,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.006
+      objectReference: {fileID: 0}
+    - target: {fileID: 4664597608977113821, guid: dda748f6387e94c409a2eea07b081527,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.028212294
+      objectReference: {fileID: 0}
+    - target: {fileID: 4664597608977113821, guid: dda748f6387e94c409a2eea07b081527,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.00015307374
+      objectReference: {fileID: 0}
+    - target: {fileID: 4664597608977113821, guid: dda748f6387e94c409a2eea07b081527,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.1350846
+      objectReference: {fileID: 0}
+    - target: {fileID: 4664597608977113821, guid: dda748f6387e94c409a2eea07b081527,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9904323
+      objectReference: {fileID: 0}
+    - target: {fileID: 4664597608977113821, guid: dda748f6387e94c409a2eea07b081527,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4664597608977113821, guid: dda748f6387e94c409a2eea07b081527,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4664597608977113821, guid: dda748f6387e94c409a2eea07b081527,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4664597608977113821, guid: dda748f6387e94c409a2eea07b081527,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4664597608976629501, guid: dda748f6387e94c409a2eea07b081527,
+        type: 3}
+      propertyPath: m_Name
+      value: Mjolnir
+      objectReference: {fileID: 0}
+    - target: {fileID: 5602648936604532627, guid: dda748f6387e94c409a2eea07b081527,
+        type: 3}
+      propertyPath: editorParametersJson
+      value: "{\r\n  \"SERIALIZATION_VERSION\": \"1\",\r\n  \"behaviourName\": \"LongGazeDistanceBehaviour\",\r\n
+        \ \"entries\": [\r\n    {\r\n      \"name\": \"maxDistance\",\r\n      \"value\":
+        \"10\",\r\n      \"defaultValue\": \"0\",\r\n      \"Type\": \"System.Single\"\r\n
+        \   }\r\n  ],\r\n  \"components\": [\r\n    {\r\n      \"component\": {\r\n
+        \       \"name\": \"gazeComponent\",\r\n        \"value\": \"NULL\",\r\n        \"defaultValue\":
+        \"NULL\",\r\n        \"Type\": \"HoloForge.Holo.GazeComponent\"\r\n      },\r\n
+        \     \"attributes\": [\r\n        {\r\n          \"name\": \"UserType\",\r\n
+        \         \"value\": \"NOT_SET\",\r\n          \"defaultValue\": \"NOT_SET\",\r\n
+        \         \"Type\": \"HoloForge.Holo.HoloUserType\"\r\n        },\r\n        {\r\n
+        \         \"name\": \"UseSnap\",\r\n          \"value\": \"True\",\r\n          \"defaultValue\":
+        \"True\",\r\n          \"Type\": \"System.Boolean\"\r\n        },\r\n        {\r\n
+        \         \"name\": \"SnapScaleFactor\",\r\n          \"value\": \"1.5\",\r\n
+        \         \"defaultValue\": \"1.5\",\r\n          \"Type\": \"System.Single\"\r\n
+        \       },\r\n        {\r\n          \"name\": \"UserRights\",\r\n          \"value\":
+        \"NULL\",\r\n          \"defaultValue\": \"NULL\",\r\n          \"Type\":
+        \"System.String\"\r\n        },\r\n        {\r\n          \"name\": \"LongGazeDuration\",\r\n
+        \         \"value\": \"1\",\r\n          \"defaultValue\": \"0\",\r\n          \"Type\":
+        \"System.Single\"\r\n        },\r\n        {\r\n          \"name\": \"Target\",\r\n
+        \         \"value\": {\r\n            \"unityGameObject\": \"{UnityEditorSerialization::0::4812601cca12bc64d9805c79ec830c0e::5001541650669493506}\"\r\n
+        \         },\r\n          \"defaultValue\": \"NULL\",\r\n          \"Type\":
+        \"HoloForge.Holo.HoloGameObject\"\r\n        }\r\n      ]\r\n    },\r\n    {\r\n
+        \     \"component\": {\r\n        \"name\": \"animatorComponent\",\r\n        \"value\":
+        \"NULL\",\r\n        \"defaultValue\": \"NULL\",\r\n        \"Type\": \"HoloForge.Holo.AnimatorComponent\"\r\n
+        \     },\r\n      \"attributes\": [\r\n        {\r\n          \"name\": \"NetworkShared\",\r\n
+        \         \"value\": \"False\",\r\n          \"defaultValue\": \"False\",\r\n
+        \         \"Type\": \"System.Boolean\"\r\n        },\r\n        {\r\n          \"name\":
+        \"NetworkName\",\r\n          \"value\": \"NULL\",\r\n          \"defaultValue\":
+        \"NULL\",\r\n          \"Type\": \"System.String\"\r\n        },\r\n        {\r\n
+        \         \"name\": \"Target\",\r\n          \"value\": {\r\n            \"unityGameObject\":
+        \"NULL\"\r\n          },\r\n          \"defaultValue\": \"NULL\",\r\n          \"Type\":
+        \"HoloForge.Holo.HoloGameObject\"\r\n        }\r\n      ]\r\n    }\r\n  ]\r\n}"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5602648936604532627, guid: dda748f6387e94c409a2eea07b081527,
+        type: 3}
+      propertyPath: runtimeParametersJson
+      value: "{\r\n  \"SERIALIZATION_VERSION\": \"1\",\r\n  \"behaviourName\": \"LongGazeDistanceBehaviour\",\r\n
+        \ \"entries\": [\r\n    {\r\n      \"name\": \"maxDistance\",\r\n      \"value\":
+        \"10\",\r\n      \"defaultValue\": \"0\",\r\n      \"Type\": \"System.Single\"\r\n
+        \   }\r\n  ],\r\n  \"components\": [\r\n    {\r\n      \"component\": {\r\n
+        \       \"name\": \"gazeComponent\",\r\n        \"value\": \"NULL\",\r\n        \"defaultValue\":
+        \"NULL\",\r\n        \"Type\": \"HoloForge.Holo.GazeComponent\"\r\n      },\r\n
+        \     \"attributes\": [\r\n        {\r\n          \"name\": \"UserType\",\r\n
+        \         \"value\": \"NOT_SET\",\r\n          \"defaultValue\": \"NOT_SET\",\r\n
+        \         \"Type\": \"HoloForge.Holo.HoloUserType\"\r\n        },\r\n        {\r\n
+        \         \"name\": \"UseSnap\",\r\n          \"value\": \"True\",\r\n          \"defaultValue\":
+        \"True\",\r\n          \"Type\": \"System.Boolean\"\r\n        },\r\n        {\r\n
+        \         \"name\": \"SnapScaleFactor\",\r\n          \"value\": \"1.5\",\r\n
+        \         \"defaultValue\": \"1.5\",\r\n          \"Type\": \"System.Single\"\r\n
+        \       },\r\n        {\r\n          \"name\": \"UserRights\",\r\n          \"value\":
+        \"NULL\",\r\n          \"defaultValue\": \"NULL\",\r\n          \"Type\":
+        \"System.String\"\r\n        },\r\n        {\r\n          \"name\": \"LongGazeDuration\",\r\n
+        \         \"value\": \"1\",\r\n          \"defaultValue\": \"0\",\r\n          \"Type\":
+        \"System.Single\"\r\n        },\r\n        {\r\n          \"name\": \"Target\",\r\n
+        \         \"value\": {\r\n            \"unityGameObject\": \"{RuntimeSerialization::0::::}\"\r\n
+        \         },\r\n          \"defaultValue\": \"NULL\",\r\n          \"Type\":
+        \"HoloForge.Holo.HoloGameObject\"\r\n        }\r\n      ]\r\n    },\r\n    {\r\n
+        \     \"component\": {\r\n        \"name\": \"animatorComponent\",\r\n        \"value\":
+        \"NULL\",\r\n        \"defaultValue\": \"NULL\",\r\n        \"Type\": \"HoloForge.Holo.AnimatorComponent\"\r\n
+        \     },\r\n      \"attributes\": [\r\n        {\r\n          \"name\": \"NetworkShared\",\r\n
+        \         \"value\": \"False\",\r\n          \"defaultValue\": \"False\",\r\n
+        \         \"Type\": \"System.Boolean\"\r\n        },\r\n        {\r\n          \"name\":
+        \"NetworkName\",\r\n          \"value\": \"NULL\",\r\n          \"defaultValue\":
+        \"NULL\",\r\n          \"Type\": \"System.String\"\r\n        },\r\n        {\r\n
+        \         \"name\": \"Target\",\r\n          \"value\": {\r\n            \"unityGameObject\":
+        \"NULL\"\r\n          },\r\n          \"defaultValue\": \"NULL\",\r\n          \"Type\":
+        \"HoloForge.Holo.HoloGameObject\"\r\n        }\r\n      ]\r\n    }\r\n  ]\r\n}"
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dda748f6387e94c409a2eea07b081527, type: 3}
+--- !u!4 &31321172892064955 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4664597608977113821, guid: dda748f6387e94c409a2eea07b081527,
+    type: 3}
+  m_PrefabInstance: {fileID: 4671566244012998246}
+  m_PrefabAsset: {fileID: 0}
