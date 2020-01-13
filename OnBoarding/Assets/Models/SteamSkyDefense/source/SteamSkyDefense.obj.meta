@@ -1,0 +1,189 @@
+fileFormatVersion: 2
+guid: e9f3a5039f60b114c864117908c68919
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Box004
+    100002: Box005
+    100004: Box006
+    100006: Box007
+    100008: Box008
+    100010: Box009
+    100012: Object005
+    100014: Object009
+    100016: Object010
+    100018: Object011
+    100020: shipPlayer
+    100022: shipPlayer_propeller
+    100024: //RootNode
+    400000: Box004
+    400002: Box005
+    400004: Box006
+    400006: Box007
+    400008: Box008
+    400010: Box009
+    400012: Object005
+    400014: Object009
+    400016: Object010
+    400018: Object011
+    400020: shipPlayer
+    400022: shipPlayer_propeller
+    400024: //RootNode
+    2100000: shipEnemy_02
+    2100002: shipEnemy_01
+    2100004: shipEnemy_03
+    2100006: items
+    2100008: basePlayer
+    2100010: shipPlayer01
+    2300000: Box004
+    2300002: Box005
+    2300004: Box006
+    2300006: Box007
+    2300008: Box008
+    2300010: Box009
+    2300012: Object005
+    2300014: Object009
+    2300016: Object010
+    2300018: Object011
+    2300020: shipPlayer
+    2300022: shipPlayer_propeller
+    3300000: Box004
+    3300002: Box005
+    3300004: Box006
+    3300006: Box007
+    3300008: Box008
+    3300010: Box009
+    3300012: Object005
+    3300014: Object009
+    3300016: Object010
+    3300018: Object011
+    3300020: shipPlayer
+    3300022: shipPlayer_propeller
+    4300000: Box004
+    4300002: Box005
+    4300004: Box006
+    4300006: Box007
+    4300008: Box008
+    4300010: Box009
+    4300012: Object005
+    4300014: Object009
+    4300016: Object010
+    4300018: Object011
+    4300020: shipPlayer
+    4300022: shipPlayer_propeller
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: basePlayer
+    second: {fileID: 2100000, guid: 7678a7c2878198943ac38c918cfd9d3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: items
+    second: {fileID: 2100000, guid: 191df7f0b7746ae4583c0d2da9e11b0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shipEnemy_01
+    second: {fileID: 2100000, guid: 11c49e86736517d41b708aa9e4fd6bf2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shipEnemy_02
+    second: {fileID: 2100000, guid: 5ec3368ca9e1d524aa5b5c77edb4e8e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shipEnemy_03
+    second: {fileID: 2100000, guid: 7d2c16fa0310ee3499f08830d9ad82d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shipPlayer01
+    second: {fileID: 2100000, guid: b1b486d747f0c4a4bb20c86aa809556b, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
